@@ -1,0 +1,102 @@
+* {
+}
+
+body {
+  font-family: Cabin;
+  margin: 30px auto;
+  font-size: 2.4rem;
+  max-width: 800px;
+  min-width: 300px;
+  text-align: center;
+  border: 13px solid #e7a61a;
+  border-radius: 40px;
+}
+h1 {
+  font-size: 2.4rem;
+  padding-top: 2rem;
+}
+p {
+  margin-bottom: 10px;
+  font-size: 30px;
+  position: relative;
+}
+
+#boxAroundRoman {
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+.result {
+  display: inline-block;
+  width: 340px;
+  height: 70px;
+  line-height: 70px;
+  margin-bottom: 6rem;
+  overflow: auto;
+  position: relative;
+}
+
+.result, .inputFromUser, button {
+  border: none;
+  border-radius: 8px;
+  color: white;
+  background-color: #e7a61a;
+  -webkit-box-shadow: 2px 2px 4px -1px rgba(0,0,0,0.42);
+  -moz-box-shadow: 2px 2px 4px -1px rgba(0,0,0,0.42);
+  box-shadow: 2px 2px 4px -1px rgba(0,0,0,0.42);
+}
+
+button {
+  width: 68px;
+  height: 68px;
+  border-radius: 34px;
+  margin-top: 30px;
+  text-transform: uppercase;
+}
+
+button:focus {
+  outline: none;
+}
+
+/*********************************
+  Styling of input-field
+*********************************/
+
+.inputFromUser {
+  height: 70px;
+  width: 240px;
+  border: none;
+}
+
+.inputFromUser:focus {
+  outline: none;
+  background-color: #F7B320;
+}
+
+input {
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  font-size: 1.4rem;
+  color: white;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  font-size: 1.4rem;
+  color: light-gray;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  font-size: 1.4rem;
+  color: light-gray;
+}
+:-moz-placeholder { /* Firefox 18- */
+  font-size: 1.4rem;
+  color: light-gray;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}

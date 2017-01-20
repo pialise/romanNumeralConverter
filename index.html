@@ -1,0 +1,29 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Latin Roman Converter</title>
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Cabin">
+  <link rel="stylesheet" href="styleroman.css">
+</head>
+
+<body>
+  <h1>Latin to Roman Number Converter</h1>
+  <p>Latin:</p>
+  <form action="" method="get"> 
+	  <input type="number" class="inputFromUser" id="inputFromUser" placeholder="type number" min="1" maxlength="9999">
+  </form>
+		
+  <button onclick="convertToRoman()">
+	  Convert
+  </button>
+	
+  <div id="boxAroundRoman">
+    <p>Roman:</p>
+  </div>
+  <div id="latinConverted" class="result">
+	  <span id="romanLetters">roman</span>
+  </div>
+  <script src="roman.js"></script>
+</body>
+<html>
